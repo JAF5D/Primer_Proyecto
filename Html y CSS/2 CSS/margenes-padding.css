@@ -1,0 +1,19 @@
+h1{
+    background: #00879E;
+    /* el primer # representa las margenes top y bottom, el segundo # representa las margenes left y right
+    margin: 100px 50px; */
+
+    /* de esta forma ponemos margenes en direccion de las manecillas del reloj */
+    margin: 10px 20px 30px 40px;
+}
+p{
+    background: #FFAB5B;
+    
+    /* margen interno */
+    padding: 50px;
+}
+/* margin-left: ;
+margin-right: ;
+margin-top: ;
+margin-bottom: ; */
+/* margin: ; (para poner margen de igual tamaño en todas direcciones) */

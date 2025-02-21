@@ -1,0 +1,15 @@
+/* Aqui damos color y tammaño al h1 */
+h1{
+    color: rebeccapurple;
+    font-size: 75px;
+}
+#unico{
+    color: red;
+    font-size: 60px;
+}
+.verde{
+    color: chartreuse;
+}
+.fondo{
+    background: #444;
+}
