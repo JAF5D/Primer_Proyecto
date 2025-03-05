@@ -98,3 +98,7 @@ footer {
 .links{
     color: #2e5077;
 }
+
+a.active {
+  text-decoration: underline;
+}
