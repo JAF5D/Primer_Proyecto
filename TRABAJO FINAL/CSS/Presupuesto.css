@@ -1,0 +1,89 @@
+*,
+::after,
+::before{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form{
+  margin: 100px auto;
+  padding: 2rem;
+  background-color: white;
+  width: min(350px, 90%);
+  border: 3px solid #2e5077;
+  border-radius: 10px;
+  color: #2e5077;
+}
+
+.form_title{
+  font-size: 2rem;
+}
+
+.form_subtitle{
+  margin: 0.7rem;
+  color: #2e5077;
+}
+
+.form_inputs{
+  margin: 2rem 0 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+  color: #6b6b6b;
+}
+
+.form_label{
+  width: 100%;
+  display: grid;
+  grid-template-areas: "input";
+}
+
+.form_input{
+  grid-area: input;
+
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #d7d0d0;
+  padding: 0.7rem 1.5rem;
+  color: #6b6b6b;
+}
+
+.form_text{
+  grid-area: input;
+  z-index: 100;
+
+  width: max-content;
+  height: 100%;
+
+  margin-left: 1rem;
+  padding: 0 0.5rem;
+
+  display: flex;
+  align-items: center;
+
+  transform-origin: left center;
+  transition: transform 0.3s;
+}
+
+.form_input:focus + .form_text,
+.form_input:not(:placeholder-shown) + .form_text{
+  background-color: white;
+  transform: translateY(-50%) scale(.7);
+}
+
+.form_submit{
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #4DA1A9;
+  padding: 1rem 2rem;
+  color: white;
+  border: none;
+}
+
+.form_submit:hover{
+  background-color: #79D7BE;
+  cursor: pointer;
+}
+
+.input_checkbox{
+  color: #2e5077;
+}

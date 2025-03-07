@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Presupuesto.css">
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Presupuesto</title>
+</head>
+<body>
+
+    <header>
+        <a href="../index.html" class="nombre">
+            <img src="../imagenes/copo_nieve.png" alt="Imagen de copo de nieve.">
+            <h1>Todo Hielos</h1>
+        </a>
+
+        <nav>
+            <a href="../index.html" class="nav_link">Inicio</a>
+            <a href="Productos.html" class="nav_link">Productos</a>
+            <a href="Presupuesto.html" class="nav_link active">Presupuesto</a>
+            <a href="Contacto.html" class="nav_link">Contacto</a>
+        </nav>
+    </header>
+
+    <form class="form">
+
+        <h2 class="form_title">Registrate</h2>
+        <p class="form_subtitle">Rellena los campos del formulario para recibir mas informacion o aclarar tus dudas.</p>
+        
+        <div class="form_inputs">
+
+            <label class="form_label">
+                <input type="text" placeholder=" " class="form_input">
+                <span class="form_text">Ingresa tu Nombre</span>
+            </label>
+
+            <label class="form_label">
+                <input type="email" placeholder=" " class="form_input" required>
+                <span class="form_text">Ingresa tu Correo electronico</span>
+            </label>
+
+            <label class="form_label">
+                <input type="tel" placeholder=" " class="form_input" required>
+                <span class="form_text">Ingresa tu numero de telefono</span>
+            </label>
+            
+            <label for="message">
+                Informacion Adicional:
+            </label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label>
+                <input type="checkbox" name="privacy_policy" required>
+                Acepto la <a class="input_checkbox" href="Presupuesto.html" target="_blank">Política de privacidad</a>.
+            </label>
+
+        </div>
+
+        <input type="submit" value="Enviar" class="form_submit">
+    </form>
+
+    <footer class="borde">
+        <div class="borde">
+            <div>
+                <span>
+                    Todo Hielos Ⓒ 2025 - Todos los derechos reservados.
+                </span>
+            </div>
+            <div>
+                <span>
+                    Direccionn de la empresa: Calle Simpecado 3, Macarena, Sevilla
+                </span>
+            </div>
+        </div>
+        <div class="borde">
+            <a class="links" href="https://www.instagram.com/">
+                <i class="bi bi-instagram icons"></i>
+            </a>
+            <a class="links" href="https://www.facebook.com/?locale=es_ES">
+                <i class="bi bi-facebook icons"></i>
+            </a>
+            <a class="links" href="https://x.com/?lang=es">
+                <i class="bi bi-twitter icons"></i>
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>
