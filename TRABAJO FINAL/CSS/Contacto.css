@@ -1,4 +1,9 @@
-
+.datos{
+  font-size: 30px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
 
 .mapa{
   width: 100%;
@@ -16,5 +21,6 @@
 
 .google_maps{
   width: 80%;
-  height: 500px;
+  height: 600px;
+  margin-bottom: 100px;
 }
