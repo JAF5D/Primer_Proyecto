@@ -1,11 +1,11 @@
 *,
 ::after,
-::before{
+::before {
   margin: 0;
   box-sizing: border-box;
 }
 
-.form{
+.form {
   margin: 100px auto;
   padding: 2rem;
   background-color: white;
@@ -15,29 +15,29 @@
   color: #2e5077;
 }
 
-.form_title{
+.form_title {
   font-size: 2rem;
 }
 
-.form_subtitle{
+.form_subtitle {
   margin: 0.7rem;
   color: #2e5077;
 }
 
-.form_inputs{
+.form_inputs {
   margin: 2rem 0 1.5rem;
   display: grid;
   gap: 1.5rem;
   color: #6b6b6b;
 }
 
-.form_label{
+.form_label {
   width: 100%;
   display: grid;
   grid-template-areas: "input";
 }
 
-.form_input{
+.form_input {
   grid-area: input;
 
   width: 100%;
@@ -47,7 +47,7 @@
   color: #6b6b6b;
 }
 
-.form_text{
+.form_text {
   grid-area: input;
   z-index: 100;
 
@@ -65,25 +65,30 @@
 }
 
 .form_input:focus + .form_text,
-.form_input:not(:placeholder-shown) + .form_text{
+.form_input:not(:placeholder-shown) + .form_text {
   background-color: white;
-  transform: translateY(-50%) scale(.7);
+  transform: translateY(-50%) scale(0.7);
 }
 
-.form_submit{
+.form_submit {
   display: inline-block;
   border-radius: 10px;
-  background-color: #4DA1A9;
+  background-color: #4da1a9;
   padding: 1rem 2rem;
   color: white;
   border: none;
 }
 
-.form_submit:hover{
-  background-color: #79D7BE;
+.form_submit:hover {
+  background-color: #79d7be;
   cursor: pointer;
 }
 
-.input_checkbox{
+.input_checkbox {
   color: #2e5077;
+}
+
+.textarea {
+  max-width: 280px;
+  min-width: 280px;
 }

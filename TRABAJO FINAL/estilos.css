@@ -1,6 +1,7 @@
 body {
   background: #f6f4f0;
-  font-family: Montserrat, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+  font-family: Montserrat, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif;
   margin: 0;
 }
 
@@ -16,6 +17,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .nombre img {
@@ -37,24 +41,28 @@ nav a:hover {
   color: #d0ddd0;
 }
 
-.ice_gallery{
+.ice_gallery {
   color: #2e5077;
 }
 
-.banner{
-  background-image: linear-gradient(100deg, #000, #00000020), url('imagenes/cubos.jpg');
+.imgfondo {
+  background-image: linear-gradient(100deg, #000, #00000020),
+    url("imagenes/cubos.jpeg");
   height: 45rem;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
-.content_banner{
+.content_banner {
   max-width: 90rem;
-  margin: auto 0;
+  margin: 110px 0;
   padding: 10rem 0;
   margin-left: 40px;
   font-size: 200%;
   color: white;
+  position: absolute;
+  top: 0px;
 }
 
 .content_center {
@@ -67,7 +75,7 @@ nav a:hover {
   margin: 100px 150px;
 }
 
-.seccion{
+.seccion {
   margin-bottom: 50px;
   text-align: center;
   color: #2e5077;
@@ -91,13 +99,13 @@ footer {
   margin-top: 125px;
 }
 
-.icons{
-    font-size: 2rem;
-    margin: 0 0.4rem;
+.icons {
+  font-size: 2rem;
+  margin: 0 0.4rem;
 }
 
-.links{
-    color: #2e5077;
+.links {
+  color: #2e5077;
 }
 
 a.active {
